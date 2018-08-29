@@ -1,16 +1,19 @@
 <template>
   <div id="list">
     <top-bar></top-bar>
+    <header-content></header-content>
   </div>
 </template>
 
 <script>
 import TopBar from '../../components/TopBar'
+import HeaderContent from '../../components/HeaderContent'
 
 export default {
   name: 'list',
   components: {
-    TopBar
+    TopBar,
+    HeaderContent
   },
   data () {
     return {
